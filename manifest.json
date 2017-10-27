@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Annot8",
+  "version": "0.1",
+  "page_action": {
+    "default_icon": "annot8_logo.png",
+    "default_title": "Annot8"
+  },
+  "permissions": ["activeTab", "declarativeContent"],
+  "background": {
+    "scripts": ["background.js"]
+  }
+}
